@@ -13,20 +13,19 @@ The project is organized into several packages, each serving a specific purpose:
 
 ## How to run
 
--I have use H2 database so you can directly run this code and spring will automatically establish connection to the database.
--start the main spring function and 
--Use postman for check api endpoint.
+- I have use H2 database so you can directly run this code and spring will automatically establish connection to the database.
+- start the main spring function and 
+- Use postman for check api endpoint.
 
 ## Tech and Others
 
--Java 20 
--Spring boot 3.1.0
--H2 Database
--IntellijIDE
--Postman
--API for currency rate -> https://api.fxratesapi.com/latest
+- Java 20 
+- Spring boot 3.1.0
+- H2 Database
+- IntellijIDE
+- Postman
+- API for currency rate -> https://api.fxratesapi.com/latest
 
-<br />
 
 ## Screenshots of some results.
 1. New Store Owner : it can be done using - http://localhost:8080/api/storeOwner/create and passing ownerName , storeAddress and balanceINR as request body.
