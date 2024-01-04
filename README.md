@@ -23,6 +23,5 @@ The project is organized into several packages, each serving a specific purpose:
 ![Screenshot 2024-01-04 111822](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/2594e003-3c45-4b46-8ac6-e214a199fc30)
 ![Screenshot 2024-01-04 134634](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/b461ac95-c167-4c6d-99c6-5fae8ca18fb7)
 ![Screenshot 2024-01-04 115233](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/cedf34ee-c71b-4582-b50d-58c595337fec)
-##Insufficient balance
 ![Screenshot 2024-01-04 115118](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/fd3aa688-db82-411b-b89a-f91238294e7b)
 ![Screenshot 2024-01-04 111942](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/1082b0e4-461b-43eb-8a19-4fd415ee1a3b)
