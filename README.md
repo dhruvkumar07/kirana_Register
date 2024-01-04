@@ -17,6 +17,17 @@ The project is organized into several packages, each serving a specific purpose:
 -start the main spring function and 
 -Use postman for check api endpoint.
 
+## Tech and Others
+
+-Java 20 
+-Spring boot 3.1.0
+-H2 Database
+-IntellijIDE
+-Postman
+-API for currency rate -> https://api.fxratesapi.com/latest
+
+<br />
+
 ## Screenshots of some results.
 1. New Store Owner : it can be done using - http://localhost:8080/api/storeOwner/create and passing ownerName , storeAddress and balanceINR as request body.
 
@@ -28,9 +39,12 @@ The project is organized into several packages, each serving a specific purpose:
 ![image](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/9b05a2db-ac9f-4d76-8e71-29ee1fe70c00)
 
 
-![Screenshot 2024-01-04 111845](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/504d1cf5-7ba6-424d-8e31-60ef3b570380)
-![Screenshot 2024-01-04 111822](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/2594e003-3c45-4b46-8ac6-e214a199fc30)
-![Screenshot 2024-01-04 134634](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/b461ac95-c167-4c6d-99c6-5fae8ca18fb7)
-![Screenshot 2024-01-04 115233](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/cedf34ee-c71b-4582-b50d-58c595337fec)
-![Screenshot 2024-01-04 115118](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/fd3aa688-db82-411b-b89a-f91238294e7b)
-![Screenshot 2024-01-04 111942](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/1082b0e4-461b-43eb-8a19-4fd415ee1a3b)
+3. All Transaction by Type : it can be done using - http://localhost:8080/api/transaction/all/debit it can be credit also. This will return list of all transaction of specific type.
+
+![image](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/11b33b29-c8b9-469a-a2a9-1d024b293573)
+
+
+4. All Transaction by Date : it can be done using - http://localhost:8080/api/transaction/all/date/2020-01-11 in this date should be of "yyyy-MM-dd" pattern. This will return list of transaction occur on the given date.
+
+![image](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/b7961771-6196-4751-bec5-818fa30bb00d)
+
