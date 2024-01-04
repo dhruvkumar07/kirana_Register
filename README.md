@@ -18,9 +18,14 @@ The project is organized into several packages, each serving a specific purpose:
 -Use postman for check api endpoint.
 
 ## Screenshots of some results.
-1.New Store Owner : it can be done using - http://localhost:8080/api/storeOwner/create and passing ownerName , storeAddress and balanceINR as request body.
+1. New Store Owner : it can be done using - http://localhost:8080/api/storeOwner/create and passing ownerName , storeAddress and balanceINR as request body.
 
 ![image](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/0548c3e5-33b2-4ce9-906f-1eca2fe06448)
+
+
+2. New Transaction : it can be done using - http://localhost:8080/api/transaction/new and passing type , transactionAmount and date as request body. This will return transaction json response with all the required information. Trannsaction will affect the balanceAmount of owner.
+
+![image](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/9b05a2db-ac9f-4d76-8e71-29ee1fe70c00)
 
 
 ![Screenshot 2024-01-04 111845](https://github.com/dhruvkumar07/kirana_Register/assets/83705135/504d1cf5-7ba6-424d-8e31-60ef3b570380)
